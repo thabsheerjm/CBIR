@@ -12,7 +12,7 @@ You can install the requirted libraries with following command:
 ### How to use
 1. Clone the repo
 2. Place your dataset of images in the folder name 'Object_data' in the project.
-3. PLace the query image in the folder named 'query'
+3. Place the query image in the folder named 'query'
 4. Run the script, 'cbir_knn.py'
 
   '''python cbir_knn.py'''
