@@ -7,7 +7,7 @@ This project demonstrate a simple content-based image retrievel(CBIR) system usi
 * Numpy
 
 You can install the requirted libraries with following command:
-pip install opencv-python numpy
+'''pip install opencv-python numpy'''
 
 ### How to use
 1. Clone the repo
@@ -15,4 +15,12 @@ pip install opencv-python numpy
 3. PLace the query image in the folder named 'query'
 4. Run the script, 'cbir_knn.py'
 
-python cbir_knn.py
+  '''python cbir_knn.py'''
+  
+ ### Project Structure
+ * 'cbir_knn.py' : THe manin scriop that IMplements the custom k-NN algorithm and retrieves similar images based on color histihgram
+ * 'query/': Contains the query image
+ * 'Object_data/': Contains the traininhg dataset.
+ 
+ ###  Customization
+ You can customize the k-NN algorithm by updating the 'k' value and the distance metric function.
