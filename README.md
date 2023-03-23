@@ -20,7 +20,7 @@ You can install the requirted libraries with following command:
  ### Project Structure
  * 'cbir_knn.py' : THe manin scriop that IMplements the custom k-NN algorithm and retrieves similar images based on color histihgram
  * 'query/': Contains the query image
- * 'Object_data/': Contains the traininhg dataset.
+ * 'Object_data/': Contains the training dataset.
  
  ###  Customization
  You can customize the k-NN algorithm by updating the 'k' value and the distance metric function.
