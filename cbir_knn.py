@@ -47,14 +47,14 @@ def chi_square_distance(hist_A, hist_B, eps =1e-10):
     return (1/2)*np.sum([((a-b)**2)/(a+b+eps) for a,b in zip(hist_A,hist_B)]) 
 
 k= 3
-imgs, labls = dataset('./256_ObjectCategories/')
+imgs, labls = dataset('./Object_data/')
 feature_vectors = [extract_color_histogram(img) for img in imgs]
 
 knn = KNearestNeighbors(distance_metric = chi_square_distance, K =k)
 knn.fit(feature_vectors)
 
 
-num_matches =1
+num_matches =5
 def retrieve_similar_images(query_image,images, knn_model, K=num_matches):
     query_feature_vector = extract_color_histogram(query_image)
     indices = knn_model.kneighbors([query_feature_vector],K)
