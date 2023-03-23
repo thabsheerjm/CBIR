@@ -2,9 +2,9 @@
 This project demonstrate a simple content-based image retrievel(CBIR) system using a k-nearest neighbors algorithm. The Algorithm retrieves similar images froma dataset based on the color histograms f the query image and the dataset images. The custom KNN algorithm uses chi-square distance as a metyric to find the similar images.
 
 ### Dependencies
--Python 3.7+
--opencv
--Numpy
+* Python 3.7+
+* opencv
+* Numpy
 
 You can install the requirted libraries with following command:
 pip install opencv-python numpy
