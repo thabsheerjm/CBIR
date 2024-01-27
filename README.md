@@ -15,7 +15,9 @@ You can install the requirted libraries with following command:
 3. Place the query image in the folder named 'query'
 4. Run the script, 'cbir_knn.py'
 
-  '''python cbir_knn.py'''
+```
+ python cbir_knn.py
+```
   
  ### Project Structure
  * 'cbir_knn.py' : THe manin scriop that IMplements the custom k-NN algorithm and retrieves similar images based on color histihgram
