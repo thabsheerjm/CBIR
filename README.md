@@ -1,4 +1,4 @@
-# Content-Based Image Retrieval with custom k-nearet Neighbors
+# Content-Based Image Retrieval with k-nearet Neighbors
 This project demonstrate a simple content-based image retrieval(CBIR) system using a k-nearest neighbors algorithm. The Algorithm retrieves similar images froma dataset based on the color histograms f the query image and the dataset images. The custom KNN algorithm uses chi-square distance as a metyric to find the similar images.
 
 ### Dependencies
